@@ -1,16 +1,24 @@
 module.exports = function(grunt) {
   require('time-grunt')(grunt);
 
+  const PACKAGE_JSON_CONTENTS = grunt.file.readJSON('package.json');
+  const PACKAGE_NAME = PACKAGE_JSON_CONTENTS.name;
+
+  const MANIFEST_JSON_CONTENTS = grunt.file.readJSON('src/manifest.json');
+  const MANIFEST_VERSION = MANIFEST_JSON_CONTENTS.version;
+
+  const FILE_NAME_PREFIX = `${ PACKAGE_NAME }-v`;
+
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    manifest: grunt.file.readJSON('src/manifest.json'),
+    pkg: PACKAGE_JSON_CONTENTS,
+    manifest: MANIFEST_JSON_CONTENTS,
     config: {
       tempDir:
         grunt.cli.tasks[0] === 'tgut' ? 'build/tgut-temp/' : 'build/tgs-temp/',
       buildName:
         grunt.cli.tasks[0] === 'tgut'
           ? 'tgut-<%= manifest.version %>'
-          : 'tgs-<%= manifest.version %>',
+          : `${ FILE_NAME_PREFIX }${ MANIFEST_VERSION }`,
     },
     copy: {
       main: {
