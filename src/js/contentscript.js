@@ -1,9 +1,10 @@
 /*global chrome */
 /*
- * The Great Suspender
+ * Based on:
+ * The Great Suspender v7.1.6
  * Copyright (C) 2017 Dean Oemcke
  * Available under GNU GENERAL PUBLIC LICENSE v2
- * http://github.com/greatsuspender/thegreatsuspender
+ * https://github.com/greatsuspender/thegreatsuspender/tree/v7.1.6
  * ლ(ಠ益ಠლ)
 */
 (function() {

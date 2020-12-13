@@ -1,9 +1,10 @@
 /* global gsStorage, gsChrome, gsIndexedDb, gsUtils, gsFavicon, gsSession, gsMessages, gsTabSuspendManager, gsTabDiscardManager, gsAnalytics, gsTabCheckManager, gsSuspendedTab, chrome, XMLHttpRequest */
 /*
- * The Great Suspender
+ * Based on:
+ * The Great Suspender v7.1.6
  * Copyright (C) 2017 Dean Oemcke
  * Available under GNU GENERAL PUBLIC LICENSE v2
- * http://github.com/greatsuspender/thegreatsuspender
+ * https://github.com/greatsuspender/thegreatsuspender/tree/v7.1.6
  * ༼ つ ◕_◕ ༽つ
 */
 var tgs = (function() {
