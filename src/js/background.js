@@ -1189,7 +1189,7 @@ var tgs = (function() {
     var xhr = new XMLHttpRequest();
     var lastShownNoticeVersion = gsStorage.fetchNoticeVersion();
 
-    xhr.open('GET', 'https://greatsuspender.github.io/notice.json', true);
+    xhr.open('GET', 'https://poziworld.github.io/idle-tabs/notice.json', true);
     xhr.timeout = 4000;
     xhr.setRequestHeader('Cache-Control', 'no-cache');
     xhr.onreadystatechange = function() {
