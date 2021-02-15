@@ -12,12 +12,12 @@ var tgs = (function() {
   'use strict';
 
   const ICON_SUSPENSION_ACTIVE = {
-    '16': 'img/ic_suspendy_16x16.png',
-    '32': 'img/ic_suspendy_32x32.png',
+    '16': 'img/idle-tabs-logo-16x16.png',
+    '32': 'img/idle-tabs-logo-32x32.png',
   };
   const ICON_SUSPENSION_PAUSED = {
-    '16': 'img/ic_suspendy_16x16_grey.png',
-    '32': 'img/ic_suspendy_32x32_grey.png',
+    '16': 'img/idle-tabs-logo-inactive-16x16.png',
+    '32': 'img/idle-tabs-logo-inactive-32x32.png',
   };
 
   // Unsuspended tab props
