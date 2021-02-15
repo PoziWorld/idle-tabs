@@ -154,6 +154,7 @@ ul.unorderedList li {
 .splash:not(.welcome-message) {
   width: 900px;
 }
+/* @deprecated */
 .suspendy-guy {
   width: 100%;
 }
@@ -164,6 +165,23 @@ ul.unorderedList li {
 #suspendy-guy-complete {
   max-height: 220px;
 }
+
+.welcome-banner {
+  width: 100%;
+}
+
+.welcome-banner-emoji {
+  font-size: 4em;
+}
+
+.accessible-annotation {
+  position: absolute !important;
+  height: .1rem;
+  width: .1rem;
+  overflow: hidden;
+  clip: rect( .1rem, .1rem, .1rem, .1rem );
+}
+
 .btn {
   background: #3477db;
   color: #fff;
