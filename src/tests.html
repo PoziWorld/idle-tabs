@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <title id="gsTitle">The Great Suspender is testing</title>
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <script type="text/javascript" src="js/tests/test_currentSessions.js"></script>
     <script type="text/javascript" src="js/tests/test_savedSessions.js"></script>
@@ -13,17 +15,28 @@
     <script type="text/javascript" src="js/tests/test_gsUtils.js"></script>
     <script type="text/javascript" src="js/tests/test_gsTabQueue.js"></script>
     <script type="text/javascript" src="js/tests/tests.js"></script>
-    <title id="gsTitle">The Great Suspender is testing</title>
 </head>
 
 <body class="splash-wrap">
 
 <div class="splash">
 
-    <div>
-        <img id="suspendy-guy-inprogress" class="suspendy-guy" src="img/suspendy-guy-uh-oh.png" />
-        <img id="suspendy-guy-complete" class="suspendy-guy reallyHidden" src="img/suspendy-guy-oops.png" />
-    </div>
+    <figure class="welcome-banner initial">
+      <span class="welcome-banner-emoji">
+        ⏳
+      </span>
+      <figcaption class="accessible-annotation">
+        Hourglass with flowing sand emoji
+      </figcaption>
+    </figure>
+    <figure class="welcome-banner alternate" hidden>
+      <span class="welcome-banner-emoji">
+        ⌛
+      </span>
+      <figcaption class="accessible-annotation">
+        Hourglass done emoji
+      </figcaption>
+    </figure>
     <div>
         <div id="results"></div>
     </div>
