@@ -154,17 +154,6 @@ ul.unorderedList li {
 .splash:not(.welcome-message) {
   width: 900px;
 }
-/* @deprecated */
-.suspendy-guy {
-  width: 100%;
-}
-#suspendy-guy-inprogress {
-  max-height: 220px;
-  max-width: 137px;
-}
-#suspendy-guy-complete {
-  max-height: 220px;
-}
 
 .welcome-banner {
   margin-top: 4rem;
