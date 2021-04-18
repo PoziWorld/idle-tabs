@@ -31,8 +31,8 @@
           }
         }
       }
-      return tabsToRecover;
     }
+    return tabsToRecover;
   }
 
   function removeTabFromList(tabToRemove) {
