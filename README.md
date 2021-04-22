@@ -9,7 +9,7 @@ If you have suggestions or problems using the extension, please [submit a bug or
 
 ### Chrome Web Store
 
-Idle Tabs is [available via the official Chrome Web Store](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg).
+Idle Tabs is [available via the official Chrome Web Store](https://chrome.google.com/webstore/detail/idle-tabs/konndaocmjnmbghdbojolbagkigpabeg).
 
 Please note that the webstore version may be behind the latest version here. That is because I try to keep webstore updates down to a minimum due to their [disruptive effect](https://github.com/greatsuspender/thegreatsuspender/issues/526).
 
