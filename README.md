@@ -2,7 +2,7 @@
 
 "Idle Tabs" is a free and open-source Google Chrome extension for people who find that chrome is consuming too much system resource or suffer from frequent chrome crashing. Once installed and enabled, this extension will automatically *suspend* tabs that have not been used for a while, freeing up memory and cpu that the tab was consuming.
 
-If you have suggestions or problems using the extension, please [submit a bug or a feature request](https://github.com/PoziWorld/idle-tabs/issues/). For other enquiries you can email me at it-gh@poziworld.com.
+If you have suggestions or problems using the extension, please [submit a bug](https://github.com/PoziWorld/idle-tabs/issues/) or a [feature request](https://forms.gle/XW1so7w3pC7n2P5h7). For other enquiries you can email me at it-gh@poziworld.com.
 
 **If you have lost tabs from your browser:** I have written a guide for how to recover your lost tabs [here](https://github.com/deanoemcke/thegreatsuspender/issues/526
 ).
