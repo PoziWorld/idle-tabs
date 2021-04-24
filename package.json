@@ -1,6 +1,6 @@
 {
   "name": "idle-tabs",
-  "version": "0.0.0",
+  "version": "8.0.0",
   "description": "A chrome extension for suspending all tabs to free up memory",
   "main": "",
   "scripts": {
