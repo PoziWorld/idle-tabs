@@ -31,8 +31,8 @@
           }
         }
       }
-      return tabsToRecover;
     }
+    return tabsToRecover;
   }
 
   function removeTabFromList(tabToRemove) {
@@ -59,11 +59,9 @@
     if (document.getElementById('recoveryTabs').children.length === 0) {
       //if we have already clicked the restore button then redirect to success page
       if (restoreAttempted) {
-        document.getElementById('suspendy-guy-inprogress').style.display =
-          'none';
+        document.querySelector('.welcome-banner.initial').hidden = true;
         document.getElementById('recovery-inprogress').style.display = 'none';
-        document.getElementById('suspendy-guy-complete').style.display =
-          'inline-block';
+        document.querySelector('.welcome-banner.alternate').hidden = false;
         document.getElementById('recovery-complete').style.display =
           'inline-block';
 

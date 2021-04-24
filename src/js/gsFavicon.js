@@ -27,7 +27,7 @@ var gsFavicon = (function() {
     const defaultIconUrls = [
       generateChromeFavIconUrlFromUrl('http://chromeDefaultFavicon'),
       generateChromeFavIconUrlFromUrl('chromeDefaultFavicon'),
-      chrome.extension.getURL('img/ic_suspendy_16x16.png'),
+      chrome.extension.getURL('img/idle-tabs-logo-16x16.png'),
       chrome.extension.getURL('img/chromeDefaultFavicon.png'),
       chrome.extension.getURL('img/chromeDefaultFaviconSml.png'),
       chrome.extension.getURL('img/chromeDevDefaultFavicon.png'),
@@ -138,7 +138,7 @@ var gsFavicon = (function() {
     );
     if (
       tab.favIconUrl &&
-      tab.favIconUrl !== chrome.extension.getURL('img/ic_suspendy_16x16.png')
+      tab.favIconUrl !== chrome.extension.getURL('img/idle-tabs-logo-16x16.png')
     ) {
       faviconMeta = await buildFaviconMetaFromTabFavIconUrl(tab.favIconUrl);
       if (faviconMeta) {

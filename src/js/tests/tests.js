@@ -92,9 +92,8 @@ async function runTests() {
       resultEl.style = 'color: red;';
     }
   }
-  document.getElementById('suspendy-guy-inprogress').style.display = 'none';
-  document.getElementById('suspendy-guy-complete').style.display =
-    'inline-block';
+  document.querySelector('.welcome-banner.initial').hidden = true;
+  document.querySelector('.welcome-banner.alternate').hidden = false;
 }
 
 if (document.readyState !== 'loading') {

@@ -1,9 +1,10 @@
 /* global gsStorage, gsChrome, gsIndexedDb, gsUtils, gsFavicon, gsSession, gsMessages, gsTabSuspendManager, gsTabDiscardManager, gsAnalytics, gsTabCheckManager, gsSuspendedTab, chrome, XMLHttpRequest */
 /*
- * The Great Suspender
+ * Based on:
+ * The Great Suspender v7.1.6
  * Copyright (C) 2017 Dean Oemcke
  * Available under GNU GENERAL PUBLIC LICENSE v2
- * http://github.com/greatsuspender/thegreatsuspender
+ * https://github.com/greatsuspender/thegreatsuspender/tree/v7.1.6
  * ༼ つ ◕_◕ ༽つ
 */
 var tgs = (function() {
@@ -11,12 +12,12 @@ var tgs = (function() {
   'use strict';
 
   const ICON_SUSPENSION_ACTIVE = {
-    '16': 'img/ic_suspendy_16x16.png',
-    '32': 'img/ic_suspendy_32x32.png',
+    '16': 'img/idle-tabs-logo-16x16.png',
+    '32': 'img/idle-tabs-logo-32x32.png',
   };
   const ICON_SUSPENSION_PAUSED = {
-    '16': 'img/ic_suspendy_16x16_grey.png',
-    '32': 'img/ic_suspendy_32x32_grey.png',
+    '16': 'img/idle-tabs-logo-inactive-16x16.png',
+    '32': 'img/idle-tabs-logo-inactive-32x32.png',
   };
 
   // Unsuspended tab props
@@ -1188,7 +1189,7 @@ var tgs = (function() {
     var xhr = new XMLHttpRequest();
     var lastShownNoticeVersion = gsStorage.fetchNoticeVersion();
 
-    xhr.open('GET', 'https://greatsuspender.github.io/notice.json', true);
+    xhr.open('GET', 'https://poziworld.github.io/idle-tabs/notice.json', true);
     xhr.timeout = 4000;
     xhr.setRequestHeader('Cache-Control', 'no-cache');
     xhr.onreadystatechange = function() {

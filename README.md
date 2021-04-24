@@ -1,17 +1,15 @@
-# The Great Suspender
+# Idle Tabs
 
-<img src="/src/img/suspendy-guy.png" width="100px" />
+"Idle Tabs" is a free and open-source Google Chrome extension for people who find that chrome is consuming too much system resource or suffer from frequent chrome crashing. Once installed and enabled, this extension will automatically *suspend* tabs that have not been used for a while, freeing up memory and cpu that the tab was consuming.
 
-"The Great Suspender" is a free and open-source Google Chrome extension for people who find that chrome is consuming too much system resource or suffer from frequent chrome crashing. Once installed and enabled, this extension will automatically *suspend* tabs that have not been used for a while, freeing up memory and cpu that the tab was consuming.
-
-If you have suggestions or problems using the extension, please [submit a bug or a feature request](https://github.com/greatsuspender/thegreatsuspender/issues/). For other enquiries you can email me at greatsuspender@gmail.com.
+If you have suggestions or problems using the extension, please [submit a bug or a feature request](https://github.com/PoziWorld/idle-tabs/issues/). For other enquiries you can email me at it-gh@poziworld.com.
 
 **If you have lost tabs from your browser:** I have written a guide for how to recover your lost tabs [here](https://github.com/deanoemcke/thegreatsuspender/issues/526
 ).
 
 ### Chrome Web Store
 
-The Great Suspender is [available via the official Chrome Web Store](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg).
+Idle Tabs is [available via the official Chrome Web Store](https://chrome.google.com/webstore/detail/idle-tabs/konndaocmjnmbghdbojolbagkigpabeg).
 
 Please note that the webstore version may be behind the latest version here. That is because I try to keep webstore updates down to a minimum due to their [disruptive effect](https://github.com/greatsuspender/thegreatsuspender/issues/526).
 
@@ -19,7 +17,7 @@ For more information on the permissions required for the extension, please refer
 
 ### Install as an extension from source
 
-1. Download the **[latest available version](https://github.com/greatsuspender/thegreatsuspender/releases)** and unarchive to your preferred location (whichever suits you).
+1. Download the **[latest available version](https://github.com/PoziWorld/idle-tabs/releases)** and unarchive to your preferred location (whichever suits you).
 2. Using **Google Chrome** browser, navigate to chrome://extensions/ and enable "Developer mode" in the upper right corner.
 3. Click on the <kbd>Load unpacked extension...</kbd> button.
 4. Browse to the src directory of the unarchived folder and confirm.
@@ -62,4 +60,5 @@ This work is licensed under a GNU GENERAL PUBLIC LICENSE (v2)
 
 This package uses the [html2canvas](https://github.com/niklasvh/html2canvas) library written by Niklas von Hertzen.  
 It also uses the indexedDb wrapper [db.js](https://github.com/aaronpowell/db.js) written by Aaron Powell.  
-Thank you also to [BrowserStack](https://www.browserstack.com) for providing free chrome testing tools.
+
+Based on [The Great Suspender v7.1.6](https://github.com/greatsuspender/thegreatsuspender/tree/v7.1.6). Copyright (C) 2017 Dean Oemcke. Available under GNU GENERAL PUBLIC LICENSE v2.
