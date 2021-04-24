@@ -2,18 +2,17 @@
 
 "Idle Tabs" is a free and open-source Google Chrome extension for people who find that chrome is consuming too much system resource or suffer from frequent chrome crashing. Once installed and enabled, this extension will automatically *suspend* tabs that have not been used for a while, freeing up memory and cpu that the tab was consuming.
 
-If you have suggestions or problems using the extension, please [submit a bug](https://github.com/PoziWorld/idle-tabs/issues/) or a [feature request](https://forms.gle/XW1so7w3pC7n2P5h7). For other enquiries you can email me at it-gh@poziworld.com.
+If you have suggestions or problems using the extension, please [submit a bug](https://github.com/PoziWorld/idle-tabs/issues/) or a [feature request](https://forms.gle/XW1so7w3pC7n2P5h7). For other enquiries, you can email it-gh@poziworld.com.
 
-**If you have lost tabs from your browser:** I have written a guide for how to recover your lost tabs [here](https://github.com/deanoemcke/thegreatsuspender/issues/526
-).
+**If you have lost tabs from your browser:** there is a [guide](https://github.com/deanoemcke/thegreatsuspender/issues/526) for how to recover your lost tabs.
 
 ### Chrome Web Store
 
 Idle Tabs is [available via the official Chrome Web Store](https://chrome.google.com/webstore/detail/idle-tabs/konndaocmjnmbghdbojolbagkigpabeg).
 
-Please note that the webstore version may be behind the latest version here. That is because I try to keep webstore updates down to a minimum due to their [disruptive effect](https://github.com/greatsuspender/thegreatsuspender/issues/526).
+Please note that the webstore version may be behind the latest version here. That is because webstore updates are kept down to a minimum due to their [disruptive effect](https://github.com/greatsuspender/thegreatsuspender/issues/526).
 
-For more information on the permissions required for the extension, please refer to this gitHub issue: (https://github.com/greatsuspender/thegreatsuspender/issues/213)
+For more information on the permissions required for the extension, please refer to this [GitHub issue](https://github.com/greatsuspender/thegreatsuspender/issues/213).
 
 ### Install as an extension from source
 
@@ -24,7 +23,7 @@ For more information on the permissions required for the extension, please refer
 
 If you have completed the above steps, the "welcome" page will open indicating successful installation of the extension.
 
-Be sure to unsuspend all suspended tabs before removing any other version of the extension or they will disappear forever!
+Be sure to unsuspend all suspended tabs before removing any other version of the extension, or they will disappear forever!
 
 ### Build from github
 
@@ -46,7 +45,7 @@ The extension in crx format will be inside the build/crx/ directory. You can dra
 
 ### Integrating with another Chrome extension or app
 
-This extension has a small external api to allow other extensions to request the suspension of a tab. See [this issue](https://github.com/greatsuspender/thegreatsuspender/issues/276) for more information. And please let me know about it so that I can try it out!
+This extension has a small external api to allow other extensions to request the suspension of a tab. See [this issue](https://github.com/greatsuspender/thegreatsuspender/issues/276) for more information.
 
 ### Privacy
 
@@ -56,7 +55,7 @@ Free open-source extension.
 
 ### Contributing to this extension
 
-Contributions are very welcome. Feel free to submit pull requests for new features and bug fixes. For new features, ideally you would raise an issue for the proposed change first so that we can discuss ideas. This will go a long way to ensuring your pull request is accepted.
+Contributions are very welcome. Feel free to submit pull requests for new features and bug fixes. For new features, ideally you would raise an issue for the proposed change first to discuss ideas. This will go a long way to ensuring your pull request is accepted.
 
 ### License
 
